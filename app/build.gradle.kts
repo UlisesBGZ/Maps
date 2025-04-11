@@ -64,6 +64,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
 
     // Tests
     testImplementation(libs.junit)
@@ -86,5 +88,9 @@ dependencies {
 
     //
     implementation(libs.androidx.multidex)
+    implementation (libs.osmdroid.android.v6110)// Asegúrate de que sea la versión más reciente
+
+
+    implementation (libs.logging.interceptor)
 
 }
